@@ -7,9 +7,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { RecipesComponent } from './recipes/recipes.component';
 import { MaterialDesignModule } from './material-design/material-design.module';
+import { NavbarComponent } from './navigation/navbar/navbar.component';
 
 @NgModule({
-  declarations: [AppComponent, RecipesComponent],
+  declarations: [AppComponent, RecipesComponent, NavbarComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

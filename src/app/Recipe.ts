@@ -5,7 +5,7 @@ export interface Recipe {
   dietLabels: string;
   healthLabels: string;
   cautions: boolean;
-  ingridientLines: any;
+  ingridientLines: string[];
   ingridients: Ingridient[];
   calories: number;
   totalWeight: number;

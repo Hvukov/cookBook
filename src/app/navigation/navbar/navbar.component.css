@@ -10,7 +10,7 @@ button[mat-raised-button] {
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 70px;
   width: 100%;
@@ -21,4 +21,18 @@ button[mat-raised-button] {
   color: rgba(255, 252, 252, 1);
   font-family: 'Aclonica', sans-serif;
   font-size: 1.5rem;
+  margin-left: 1%;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.navbar-links > .nav-btn {
+  font-size: 1rem;
+}
+.sign-in {
+  margin-right: 2%;
 }

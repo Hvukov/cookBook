@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { RecipesComponent } from './recipes/recipes.component';
+import { MaterialDesignModule } from './material-design/material-design.module';
 
 @NgModule({
   declarations: [AppComponent, RecipesComponent],
@@ -15,6 +16,7 @@ import { RecipesComponent } from './recipes/recipes.component';
     BrowserAnimationsModule,
     HttpClientModule,
     MatSlideToggleModule,
+    MaterialDesignModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -17,7 +17,7 @@ import { NavbarComponent } from './navigation/navbar/navbar.component';
     BrowserAnimationsModule,
     HttpClientModule,
     MatSlideToggleModule,
-    MaterialDesignModule
+    MaterialDesignModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

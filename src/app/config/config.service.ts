@@ -30,10 +30,10 @@ export class RecipeService {
     error: {
       message: string;
     };
-    status: any;
-    message: any;
+    status: string;
+    message: string;
   }) {
-    let errorMessage = '';
+    let errorMessage = 'Error!';
     if (error.error instanceof ErrorEvent) {
       errorMessage = error.error.message;
     } else {

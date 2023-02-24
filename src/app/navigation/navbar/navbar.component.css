@@ -24,6 +24,10 @@ button[mat-raised-button] {
   margin-left: 1%;
 }
 
+.hamburger-menu {
+  display: none;
+}
+
 .navbar-links {
   display: flex;
   justify-content: space-around;
@@ -35,4 +39,17 @@ button[mat-raised-button] {
 }
 .sign-in {
   margin-right: 2%;
+}
+
+/* hamburger menu */
+@media only screen and (max-width: 767px) {
+  .hamburger-menu {
+    display: block;
+    background-color: red;
+    width: 200px;
+  }
+
+  .hamburger-menu > span {
+    background-color: red;
+  }
 }

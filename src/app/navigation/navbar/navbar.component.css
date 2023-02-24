@@ -36,3 +36,20 @@ button[mat-raised-button] {
 .sign-in {
   margin-right: 2%;
 }
+
+.hamburger-menu {
+  display: none;
+}
+
+/* hamburger-menu */
+@media screen and (max-width: 767px) {
+  .hamburger-menu {
+    display: block;
+    margin-right: 2%;
+  }
+
+  .navbar-links,
+  .sign-in {
+    display: none;
+  }
+}

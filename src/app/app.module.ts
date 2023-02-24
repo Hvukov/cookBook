@@ -4,10 +4,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { RecipesComponent } from './recipes/recipes.component';
+import { RecipesComponent } from './components/recipes/recipes.component';
 import { MaterialDesignModule } from './material-design/material-design.module';
-import { NavbarComponent } from './navigation/navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './components/navigation/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [

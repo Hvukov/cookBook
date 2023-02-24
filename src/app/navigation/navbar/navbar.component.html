@@ -5,11 +5,6 @@
         <img src="assets/logo.png" alt="dish genie logo" width="50%" />
       </a>
     </div>
-    <div class="hamburger-menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
     <div class="navbar-links">
       <button mat-flat-button class="nav-btn">COOK</button>
       <button mat-flat-button class="nav-btn">TRENDING</button>
@@ -17,6 +12,22 @@
     </div>
     <div class="sign-in">
       <button mat-raised-button color="primary">SIGN IN</button>
+    </div>
+    <div class="hamburger">
+      <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" />
+      <label for="openSidebarMenu" class="openSidebarMenu">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+      </label>
+      <div id="sideBarMenu">
+        <div class="main-content-wrapper">
+          <a href="#cook">COOK</a>
+          <a href="#trending">TRENDING</a>
+          <a href="#about">ABOUT</a>
+          <a href="#about">SIGN IN</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>

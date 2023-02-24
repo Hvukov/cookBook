@@ -24,10 +24,6 @@ button[mat-raised-button] {
   margin-left: 1%;
 }
 
-.hamburger-menu {
-  display: none;
-}
-
 .navbar-links {
   display: flex;
   justify-content: space-around;
@@ -39,28 +35,4 @@ button[mat-raised-button] {
 }
 .sign-in {
   margin-right: 2%;
-}
-
-/* hamburger menu */
-@media only screen and (max-width: 767px) {
-  .hamburger-menu {
-    display: block;
-    width: 30px;
-    height: 25px;
-  }
-
-  .hamburger-menu > span {
-    display: block;
-    width: 26px;
-    height: 2px;
-    background-color: whitesmoke;
-  }
-
-  .hamburger-menu > span:not(:last-child){
-    margin-bottom: 2.5px;
-  }
-
-  .navbar-links {
-    display: none;
-  }
 }

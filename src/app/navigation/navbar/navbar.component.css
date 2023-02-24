@@ -45,11 +45,22 @@ button[mat-raised-button] {
 @media only screen and (max-width: 767px) {
   .hamburger-menu {
     display: block;
-    background-color: red;
-    width: 200px;
+    width: 30px;
+    height: 25px;
   }
 
   .hamburger-menu > span {
-    background-color: red;
+    display: block;
+    width: 26px;
+    height: 2px;
+    background-color: whitesmoke;
+  }
+
+  .hamburger-menu > span:not(:last-child){
+    margin-bottom: 2.5px;
+  }
+
+  .navbar-links {
+    display: none;
   }
 }

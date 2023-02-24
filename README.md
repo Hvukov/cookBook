@@ -1,27 +1,59 @@
-# CookBook
+# Dish Genie
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
+> Dish Genie is a website that gives recepies based on the ingredients user inputs
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [General Info](#general-information)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Project Status](#project-status)
+- [Room for Improvement](#room-for-improvement)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
-## Code scaffolding
+## General Information
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Dish Genie is a website built with Angular. It allows users to input ingredients, specify how much time they have, and other preferences. Based on that users are given recipes from various cuisines
+- The purpose of this project is to make it easier for begginers and those looking for interesting recipes to cook delicious meals
+- When we are hungry we are not our selfs so it's nice to have someone suggest what to cook.
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular - version 15.0.0
+- Node - version 16.17.0
+- TypeScript - version 4.8.2
 
-## Running unit tests
+## Features
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+List the ready features here:
 
-## Running end-to-end tests
+- Input ingredients and get recipes
+- Specify allergies
+- Specify time you have for cooking
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Setup
 
-## Further help
+For this project to run on your local machine take these steps:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone the repository with `git clone https://github.com/Hvukov/cookBook.git`
+2. Install dependencies with `npm install`
+3. Run the project with `npm run start`
+4. Visit `http://localhost:4200`
+
+## Usage
+
+Start the project by running:
+
+`npm run start`
+
+## Project Status
+
+Project is: _in progress_
+
+## Contact
+
+Created by [@hrvojevukov](https://github.com/Hvukov) and [@veronikasimic](https://github.com/veronika-simic) - feel free to contact us!

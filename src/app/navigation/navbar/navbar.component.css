@@ -55,8 +55,16 @@ cdk-overlay-connected-position-bounding-box {
   .mat-mdc-menu-content {
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    background-color: white;
     list-style-type: none;
+  }
+  .mat-mdc-menu-item {
+    justify-content: space-evenly !important;
+    padding: 0 !important;
+  }
+  .mat-mdc-menu-item > span {
+    color: hsl(116, 58%, 65%);
+    font-weight: 600;
   }
 
   .menu-screen {

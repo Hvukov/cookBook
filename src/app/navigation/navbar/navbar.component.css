@@ -1,0 +1,30 @@
+.nav-bar {
+  align-items: center;
+  background-color: #77d970;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.375rem;
+  font-weight: 600;
+  height: 4.375rem;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+img {
+  height: 4.375rem;
+}
+
+.links {
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+  width: 85%;
+}
+
+.mat-mdc-raised-button:not(:disabled) {
+  color: #77d970;
+  font-weight: 600;
+}
+.hamburger-menu {
+  display: none;
+}

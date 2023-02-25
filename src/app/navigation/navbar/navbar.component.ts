@@ -5,7 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css'],
 })
-export class NavbarComponent {
-  // toggle display:block navbar-links
-  onToggle() {}
-}
+export class NavbarComponent {}

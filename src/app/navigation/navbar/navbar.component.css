@@ -64,7 +64,6 @@ cdk-overlay-connected-position-bounding-box {
   }
   .mat-mdc-menu-item > span {
     color: hsl(116, 58%, 65%);
-    font-weight: 600;
   }
 
   .menu-screen {

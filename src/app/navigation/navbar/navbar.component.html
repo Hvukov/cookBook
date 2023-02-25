@@ -1,34 +1,36 @@
-<div class="nav-bar">
-  <a href="#">
-    <img src="assets/logo.png" alt="dish genie logo" />
-  </a>
-  <div class="nav-bar links">
-    <a href="#cook">COOK</a>
-    <a href="#trending">TRENDING</a>
-    <a href="#about">ABOUT</a>
-  </div>
-  <button mat-raised-button>SIGN IN</button>
-  <div class="hamburger-menu">
-    <mat-toolbar>
-      <span class="fill-remaining-space">
-        <button mat-icon-button [matMenuTriggerFor]="menu">
-          <mat-icon>menu</mat-icon>
-        </button>
-        <mat-menu #menu="matMenu" [overlapTrigger]="false">
-          <button mat-menu-item>
-            <span>COOK</span>
+<div>
+  <div class="nav-bar">
+    <a href="#">
+      <img src="assets/logo.png" alt="dish genie logo" />
+    </a>
+    <div class="nav-bar links">
+      <a href="#cook">COOK</a>
+      <a href="#trending">TRENDING</a>
+      <a href="#about">ABOUT</a>
+    </div>
+    <button mat-raised-button>SIGN IN</button>
+    <div class="hamburger-menu">
+      <mat-toolbar>
+        <span class="fill-remaining-space">
+          <button mat-icon-button [matMenuTriggerFor]="menu">
+            <mat-icon>menu</mat-icon>
           </button>
-          <button mat-menu-item>
-            <span>TRENDING</span>
-          </button>
-          <button mat-menu-item>
-            <span>ABOUT</span>
-          </button>
-          <button mat-menu-item>
-            <span>SIGN IN</span>
-          </button>
-        </mat-menu>
-      </span>
-    </mat-toolbar>
+          <mat-menu #menu="matMenu" [overlapTrigger]="false">
+            <button mat-menu-item>
+              <span>COOK</span>
+            </button>
+            <button mat-menu-item>
+              <span>TRENDING</span>
+            </button>
+            <button mat-menu-item>
+              <span>ABOUT</span>
+            </button>
+            <button mat-menu-item>
+              <span>SIGN IN</span>
+            </button>
+          </mat-menu>
+        </span>
+      </mat-toolbar>
+    </div>
   </div>
 </div>

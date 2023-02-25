@@ -44,12 +44,12 @@ cdk-overlay-connected-position-bounding-box {
   }
   .hamburger-menu {
     display: block;
-    width: 20%;
+    margin-right: 2rem;
   }
   .custom-class {
     background-color: hsl(116, 58%, 65%);
     color: whitesmoke;
-    padding: 0;
+    padding: 0 !important;
   }
 
   .mat-mdc-menu-content {
@@ -58,10 +58,7 @@ cdk-overlay-connected-position-bounding-box {
     background-color: whitesmoke;
     list-style-type: none;
   }
-  ::ng-deep .mat-menu-content {
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
-  }
+
   .menu-screen {
     position: fixed;
     max-width: unset !important;

@@ -6,7 +6,7 @@
   font-size: 1.375rem;
   font-weight: 600;
   height: 4.375rem;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -37,7 +37,8 @@ img {
   .hamburger-menu {
     display: block;
   }
-  .mat-toolbar.mat-primary {
+  .mat-toolbar {
     background-color: #77d970;
-}
+    color: whitesmoke;
+  }
 }

@@ -9,26 +9,22 @@
   </div>
   <button mat-raised-button>SIGN IN</button>
   <div class="hamburger-menu">
-    <mat-toolbar color="primary">
+    <mat-toolbar>
       <span class="fill-remaining-space">
         <button mat-icon-button [matMenuTriggerFor]="menu">
           <mat-icon>menu</mat-icon>
         </button>
         <mat-menu #menu="matMenu" [overlapTrigger]="false">
           <button mat-menu-item>
-            <mat-icon>home</mat-icon>
             <span>COOK</span>
           </button>
           <button mat-menu-item>
-            <mat-icon>people_outline</mat-icon>
             <span>TRENDING</span>
           </button>
           <button mat-menu-item>
-            <mat-icon>videocam</mat-icon>
             <span>ABOUT</span>
           </button>
           <button mat-menu-item>
-            <mat-icon>exit_to_app</mat-icon>
             <span>SIGN IN</span>
           </button>
         </mat-menu>

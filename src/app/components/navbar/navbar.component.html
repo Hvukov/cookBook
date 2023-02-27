@@ -15,13 +15,16 @@
           <mat-icon>menu</mat-icon>
         </button>
         <mat-menu #menu="matMenu" [overlapTrigger]="false" class="menu-screen">
-          <button mat-menu-item>
+          <button mat-menu-item routerLink="/cook" routerLinkActive="active">
             <span>COOK</span>
           </button>
-          <button mat-menu-item>
+          <button
+            mat-menu-item
+            routerLink="/trending"
+            routerLinkActive="active">
             <span>TRENDING</span>
           </button>
-          <button mat-menu-item>
+          <button mat-menu-item routerLink="/about" routerLinkActive="active">
             <span>ABOUT</span>
           </button>
           <button mat-menu-item>

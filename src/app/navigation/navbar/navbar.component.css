@@ -1,7 +1,6 @@
 .nav-bar {
   align-items: center;
   display: flex;
-  background-color: #77d970;
   font-family: 'Roboto', sans-serif;
   font-size: 1.375rem;
   font-weight: 600;
@@ -16,10 +15,20 @@ img {
 }
 
 .links {
-  color: whitesmoke;
+  color: #77d970;
   display: flex;
   justify-content: space-evenly;
   width: 85%;
+}
+
+.links a:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s;
+  transform-origin: top;
+}
+
+.links a:active {
+  color: #ffde00;
 }
 
 .mat-mdc-raised-button:not(:disabled) {

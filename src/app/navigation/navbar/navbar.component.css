@@ -56,8 +56,8 @@ cdk-overlay-connected-position-bounding-box {
     margin-right: 2rem;
   }
   .custom-class {
-    background-color: hsl(116, 58%, 65%);
-    color: whitesmoke;
+    background-color: white;
+    color: #77d970;
     padding: 0 !important;
   }
 

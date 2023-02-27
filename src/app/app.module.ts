@@ -4,9 +4,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { RecipesComponent } from './components/recipes/recipes.component';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { RecipesComponent } from './recipes/recipes.component';
 import { MaterialDesignModule } from './material-design/material-design.module';
-import { NavbarComponent } from './components/navigation/navbar/navbar.component';
+import { NavbarComponent } from './navigation/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
@@ -21,6 +22,7 @@ import { FooterComponent } from './components/footer/footer.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    MatSlideToggleModule,
     MaterialDesignModule,
   ],
   providers: [],

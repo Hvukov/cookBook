@@ -9,6 +9,9 @@ import { RecipesComponent } from './components/recipes/recipes.component';
 import { MaterialDesignModule } from './material-design/material-design.module';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CookComponent } from './components/navbar/cook/cook.component';
+import { TrendingComponent } from './components/navbar/trending/trending.component';
+import { AboutComponent } from './components/navbar/about/about.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +19,9 @@ import { FooterComponent } from './components/footer/footer.component';
     RecipesComponent,
     NavbarComponent,
     FooterComponent,
+    CookComponent,
+    TrendingComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,

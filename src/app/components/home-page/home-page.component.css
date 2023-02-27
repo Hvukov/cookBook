@@ -1,16 +1,32 @@
 .home-page-container {
   background-color: #77d970;
+  color: whitesmoke;
   display: flex;
-  width: 100%;
-  height: 70%;
   flex: 1;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 80%;
 }
 
 .home-page-container > div {
   flex-grow: 1;
 }
 
+.banner-contanier {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.banner-contanier > h1 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
 img {
-  width: 90%;
+  width: 80%;
   height: 100%;
+  float: right;
 }

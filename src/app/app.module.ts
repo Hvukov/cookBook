@@ -12,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CookComponent } from './components/navbar/cook/cook.component';
 import { TrendingComponent } from './components/navbar/trending/trending.component';
 import { AboutComponent } from './components/navbar/about/about.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { AboutComponent } from './components/navbar/about/about.component';
     CookComponent,
     TrendingComponent,
     AboutComponent,
+    HomePageComponent,
   ],
   imports: [
     BrowserModule,

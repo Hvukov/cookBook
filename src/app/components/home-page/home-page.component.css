@@ -32,11 +32,17 @@ img {
   height: 100%;
 }
 
-button {
-  font-size: 4rem;
-  left: calc(50% - 4.375rem);
-  bottom: 4rem;
+.home-page-button {
+  background-color: whitesmoke;
+  bottom: 6rem;
+  color: #77d970 !important;
+  left: 50%;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-left: -100px;
+  padding: 2rem 1.5rem;
   position: absolute;
+  width: 20%;
   z-index: 100;
 }
 

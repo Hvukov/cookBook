@@ -22,6 +22,12 @@
   font-size: 1rem;
 }
 
+span {
+    color:#77d970;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
 .home-button {
   background-color: #77d970;
   border-radius: 30px;

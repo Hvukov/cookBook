@@ -12,6 +12,7 @@
   color: #77d970;
   font-size: 7rem;
   font-weight: bold;
+  margin-bottom: 2.5rem;
 }
 .container > h2 {
   font-size: 2rem;
@@ -19,7 +20,7 @@
 
 .container > .paragraphs {
   width: 80%;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 span {

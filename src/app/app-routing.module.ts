@@ -3,11 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { CookComponent } from './components/navbar/cook/cook.component';
 import { TrendingComponent } from './components/navbar/trending/trending.component';
 import { AboutComponent } from './components/navbar/about/about.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
 
 const routes: Routes = [
+  { path: '', component: HomePageComponent },
   { path: 'cook', component: CookComponent },
   { path: 'trending', component: TrendingComponent },
   { path: 'about', component: AboutComponent },
+  { path: '**', component: PageNotFoundComponent },
 ];
 
 @NgModule({

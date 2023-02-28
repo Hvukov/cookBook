@@ -14,6 +14,8 @@ import { TrendingComponent } from './components/navbar/trending/trending.compone
 import { AboutComponent } from './components/navbar/about/about.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { BaseLayoutComponent } from './components/base-layout/base-layout.component';
+import { SiteLayoutComponent } from './components/site-layout/site-layout.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     AboutComponent,
     HomePageComponent,
     PageNotFoundComponent,
+    BaseLayoutComponent,
+    SiteLayoutComponent,
   ],
   imports: [
     BrowserModule,

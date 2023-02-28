@@ -31,8 +31,9 @@ span {
 
 .home-button {
   background-color: #77d970;
-  border-radius: 30px;
+  border-radius: 25px;
   color: white !important;
   font-size: 2rem;
+  margin: 0 auto;
   padding: 1.75rem;
 }

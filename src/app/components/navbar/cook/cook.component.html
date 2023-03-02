@@ -1,9 +1,17 @@
 <h3>Testing stepper</h3>
 
-<mat-stepper orientation="vertical">
+<mat-stepper orientation="horizontal">
   <mat-step>
     <ng-template matStepLabel>Ingredients</ng-template>
     <p>Enter ingredients</p>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Select</mat-label>
+      <mat-select>
+        <mat-option value="one">First option</mat-option>
+        <mat-option value="two">Second option</mat-option>
+      </mat-select>
+    </mat-form-field>
 
     <button mat-button matStepperNext>Next</button>
   </mat-step>
@@ -15,6 +23,17 @@
 
   <mat-step>
     <ng-template matStepLabel>Alergies</ng-template>
+    <button mat-button matStepperNext>Next</button>
+  </mat-step>
+
+  <mat-step>
+    <ng-template matStepLabel>Time</ng-template>
+    <button mat-button matStepperNext>Next</button>
+  </mat-step>
+
+  <mat-step>
+    <ng-template matStepLabel>Kitchen origin</ng-template>
+    <button mat-button matStepperNext>Next</button>
   </mat-step>
 
   <mat-step label="done"> You are good to go now! </mat-step>

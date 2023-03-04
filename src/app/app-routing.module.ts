@@ -10,22 +10,22 @@ import { SiteLayoutComponent } from './components/site-layout/site-layout.compon
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'cook',
     component: SiteLayoutComponent,
     children: [
-      {
-        path: '',
-        component: HomePageComponent,
-      },
       { path: 'cook', component: CookComponent },
       { path: 'trending', component: TrendingComponent },
       { path: 'about', component: AboutComponent },
     ],
   },
   {
-    path: '**',
+    path: '',
     component: BaseLayoutComponent,
     children: [
+      {
+        path: '',
+        component: HomePageComponent,
+      },
       {
         path: '**',
         component: PageNotFoundComponent,

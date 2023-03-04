@@ -3,12 +3,11 @@
   color: white;
   display: flex;
   justify-content: flex-end;
-  height: 90%;
+  height: 85%;
   width: 100%;
 }
-
+/* left container */
 .left-container {
-  align-items: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,6 +39,7 @@
   width: 90%;
 }
 
+/* right container with image*/
 .right-container {
   background-image: url('../../../assets/home-page.jpg');
   background-size: 100% 100%;
@@ -47,6 +47,13 @@
   width: 50%;
 }
 
+#content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* media queries */
 @media (max-width: 768px) {
   .home-page-container {
     flex-direction: column-reverse;

@@ -1,6 +1,6 @@
 .home-page-container {
-  background-color: #77d970;
-  color: white;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
   display: flex;
   justify-content: flex-end;
   height: 85%;
@@ -31,8 +31,8 @@
 }
 
 .left-container > .home-page-button {
-  border: 2px solid white;
-  color: white;
+  border: 2px solid var(--secondary-color);
+  color:var(--secondary-color);
   font-size: 2rem;
   height: 5.5rem;
   padding: 2.5rem 0;
